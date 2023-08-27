@@ -227,18 +227,7 @@ footer a {
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 769px), print {
     
-    .grid {
-        grid-template-columns: auto auto auto auto;
-    }
-    
-    figcaption {
-        font-size: 1em;
-    }
-    
-    aside {
-        grid-column: 1 / span 4;
-    }
-    
+
     /* Desktop Viewport: Style rule for header */
     header {
         padding: 2%;
@@ -267,6 +256,18 @@ footer a {
         width: 29%;
         float: left;
         margin: 0 2%;
+    }
+    
+    .grid {
+        grid-template-columns: auto auto auto auto;
+    }
+    
+    figcaption {
+        font-size: 1em;
+    }
+    
+    aside {
+        grid-column: 1/span 4;
     }
     
 }
