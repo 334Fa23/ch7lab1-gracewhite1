@@ -259,6 +259,7 @@ footer a {
     }
     
     .grid {
+        display: grid;
         grid-template-columns: auto auto auto auto;
     }
     
@@ -267,6 +268,7 @@ footer a {
     }
     
     aside {
+        display: grid;
         grid-column: 1 / span 4;
     }
     
